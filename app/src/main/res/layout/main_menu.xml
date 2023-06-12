@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+
+    android:background="@color/three">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/selamat_datang_di_game_sederhana"
+        android:textColor="@color/two"
+        android:fontFamily="casual"
+        android:textSize="20sp"
+        android:layout_marginBottom="20dp"
+        />
+
+    <Button
+        android:id="@+id/tictac"
+        android:layout_width="156dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/two"
+        android:onClick="startTicTacToe"
+        android:text="@string/tic_tac_toe" />
+
+    <Button
+        android:id="@+id/color_guesser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/color_guesser"
+        android:onClick="startColorGuesser"
+        android:backgroundTint="@color/one"/>
+
+</LinearLayout>

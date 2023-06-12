@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">UAS PAM</string>
+    <string name="health">Health : 5</string>
+    <string name="health_score_string">Health : %1$s</string>
+    <string name="color_guesser">Color Guesser</string>
+    <string name="tic_tac_toe">Tic Tac Toe</string>
+    <string name="title_activity_tictactoe">Tictactoe</string>
+    <string name="button_reset">Reset</string>
+    <string name="display_winner">%1$s</string>
+    <string name="title">Tic Tac Toe</string>
+    <string name="button_restart">Restart</string>
+    <string name="player_1_score">P. One :</string>
+    <string name="player_1_score_number">%1$s</string>
+    <string name="player_2_score_number">%1$s</string>
+    <string name="player_2_score">P. Two :</string>
+    <string name="selamat_datang_di_game_sederhana">Selamat Datang Di Game Sederhana !!</string>
+
+
+</resources>
